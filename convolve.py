@@ -141,9 +141,9 @@ class Solution:
         """
         [TODO] (2) Implement search function here
         """
-        for i in range(len(cdf_values)):
-            if abs(cdf_values[i]-target) < epsilon:
-                return self.data.ti[i]
+        # for i in range(len(cdf_values)):
+        #     if abs(cdf_values[i]-target) < epsilon:
+        #         return self.data.ti[i]
 
 
 
